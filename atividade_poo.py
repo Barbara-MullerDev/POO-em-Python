@@ -7,10 +7,6 @@ Métodos:
 mostrar_saldo()
 depositar_valor()
 sacar_valor()
-
-
-Se tentar sacar mais que o saldo, mostrar:
-Saldo insuficiente
 '''
 class Conta:
     def __init__(self, titular, saldo):
